@@ -1,6 +1,13 @@
 // (cmd shift .)
-var filename = [[[NSProcessInfo processInfo] environment] objectForKey:@"HOME"] + "/Desktop/artboard.png";
-var artboard = [[[doc currentPage] artboards] firstObject];
+
+var artboard = [[doc currentPage] currentArtboard] || [doc currentPage];
+var artboardname = [artboard name];
+var filename = [[[NSProcessInfo processInfo] environment] objectForKey:@"HOME"] + "/Desktop/" + artboardname + ".png";
 [doc saveArtboardOrSlice:artboard toFile: filename];
-var file = [NSURL fileURLWithPath: filename];
+
+var someContent = NSString.stringWithString_("<html><body style='background: url(" + artboardname + ".png) center top no-repeat;'></body></html>");
+var filepath = [[[NSProcessInfo processInfo] environment] objectForKey:@"HOME"] + "/Desktop/" + artboardname + ".html";
+someContent.dataUsingEncoding_(NSUTF8StringEncoding).writeToFile_atomically_(filepath, true);
+
+var file = [NSURL fileURLWithPath: filepath];
 [[NSWorkspace sharedWorkspace] openFile:[file path] withApplication: "Safari"];
