@@ -1,5 +1,5 @@
 // (cmd shift .)
-var filename = [[[NSProcessInfo processInfo] environment] objectForKey:@"HOME"] + "/artboard.png";
+var filename = [[[NSProcessInfo processInfo] environment] objectForKey:@"HOME"] + "/Desktop/artboard.png";
 var artboard = [[[doc currentPage] artboards] firstObject];
 [doc saveArtboardOrSlice:artboard toFile: filename];
 var file = [NSURL fileURLWithPath: filename];
