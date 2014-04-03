@@ -10,4 +10,4 @@ var filepath = [[[NSProcessInfo processInfo] environment] objectForKey:@"HOME"] 
 someContent.dataUsingEncoding_(NSUTF8StringEncoding).writeToFile_atomically_(filepath, true);
 
 var file = [NSURL fileURLWithPath: filepath];
-[[NSWorkspace sharedWorkspace] openFile:[file path] withApplication: "Safari"];
+[[NSWorkspace sharedWorkspace] openFile:[file path]];
