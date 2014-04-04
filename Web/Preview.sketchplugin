@@ -5,7 +5,7 @@ var artboardname = [artboard name];
 var filename = [[[NSProcessInfo processInfo] environment] objectForKey:@"HOME"] + "/Desktop/" + artboardname + ".png";
 [doc saveArtboardOrSlice:artboard toFile: filename];
 
-var someContent = NSString.stringWithString_("<html><body style='background: url(\"./" + artboardname + ".png\") center top no-repeat;'></body></html>");
+var someContent = NSString.stringWithString_("<html><body style='text-align: center; margin: 0; padding: 0;'> <img src='./" + artboardname + ".png') center top no-repeat;'></body></html>");
 var filepath = [[[NSProcessInfo processInfo] environment] objectForKey:@"HOME"] + "/Desktop/" + artboardname + ".html";
 someContent.dataUsingEncoding_(NSUTF8StringEncoding).writeToFile_atomically_(filepath, true);
 
