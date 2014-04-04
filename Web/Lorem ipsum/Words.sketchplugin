@@ -1,3 +1,5 @@
+// Generate lorem ipsum by words length (cmd shift -)
+
 #import 'library/lorem.js'
 
 var count = [doc askForUserInput:"How many words?" initialValue:5];
