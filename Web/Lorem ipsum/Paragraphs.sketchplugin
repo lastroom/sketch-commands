@@ -1,0 +1,24 @@
+#import 'library/lorem.js'
+
+var count = [doc askForUserInput:"How many paragraphs?" initialValue:5];
+
+var result = '';
+
+for (var i = 0; i < count; i++) {
+    var min = 10;
+    var max = 20;
+    var wordsCount = Math.floor(Math.random() * (max - min + 1) + min);
+    for (var j = 0; j < wordsCount; j++) {
+        result += randomWord() + ' ';
+    }
+    result += '\n';
+}
+
+result = result.substring(0, result.length - 1) + '.';
+
+for (var i = 0; i < selection.length(); i++) {
+    var s = selection[i];
+    if([s class] === MSTextLayer) {
+        [s setStringValue: result];
+    }
+}

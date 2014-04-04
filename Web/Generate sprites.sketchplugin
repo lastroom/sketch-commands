@@ -1,0 +1,24 @@
+//Generate sprites from items selected (cmd shift g)
+var objects = selection;
+
+var width = 300;
+
+var x = 0, y = 0;
+
+var positions = [];
+
+//Getting width, height and setting positions
+for (var i = 0; i < objects.length(); i++) {
+    var layer = [objects[i] frame];
+    var width = [layer width];
+    var height = [layer height];
+    var top = 0;
+    var left = 0;
+
+    positions.push({
+        width: width,
+        height: height,
+        top: 0,
+        left: 0
+    });
+}
