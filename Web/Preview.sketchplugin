@@ -1,13 +1,18 @@
 // Preview design on browser (cmd shift .)
 
 var artboard = [[doc currentPage] currentArtboard] || [doc currentPage];
-var artboardname = [artboard name];
-var filename = [[[NSProcessInfo processInfo] environment] objectForKey:@"HOME"] + "/Desktop/" + artboardname + ".png";
-[doc saveArtboardOrSlice:artboard toFile: filename];
 
-var someContent = NSString.stringWithString_("<html><body style='text-align: center; margin: 0; padding: 0;'> <img src='./" + artboardname + ".png') center top no-repeat;'></body></html>");
-var filepath = [[[NSProcessInfo processInfo] environment] objectForKey:@"HOME"] + "/Desktop/" + artboardname + ".html";
-someContent.dataUsingEncoding_(NSUTF8StringEncoding).writeToFile_atomically_(filepath, true);
+if ([artboard class] == "MSPage") {
+    doc.showMessage("You must create almost an artboard.");
+} else {
+    var artboardname = [artboard name];
+    var filename = NSTemporaryDirectory() + artboardname + ".png";
+    [doc saveArtboardOrSlice:artboard toFile: filename];
 
-var file = [NSURL fileURLWithPath: filepath];
-[[NSWorkspace sharedWorkspace] openFile:[file path]];
+    var someContent = NSString.stringWithString_("<html><body style='text-align: center;    margin: 0; padding: 0;'> <img src='./" + artboardname + ".png') center top no-repeat;'></body></html>");
+    var filepath = NSTemporaryDirectory() + artboardname + ".html";
+    someContent.dataUsingEncoding_(NSUTF8StringEncoding).writeToFile_atomically_(filepath, true);
+
+    var file = [NSURL fileURLWithPath: filepath];
+    [[NSWorkspace sharedWorkspace] openFile:[file path]];
+}
