@@ -9,7 +9,7 @@ if ([artboard class] == "MSPage") {
     var filename = NSTemporaryDirectory() + artboardname + ".png";
     [doc saveArtboardOrSlice:artboard toFile: filename];
 
-    var someContent = NSString.stringWithString_("<html><body style='text-align: center;    margin: 0; padding: 0;'> <img src='./" + artboardname + ".png') center top no-repeat;'></body></html>");
+    var someContent = NSString.stringWithString_("<html><body style='text-align: center;    margin: 0; padding: 0;'> <img src='./" + artboardname + ".png' center top no-repeat;'></body></html>");
     var filepath = NSTemporaryDirectory() + artboardname + ".html";
     someContent.dataUsingEncoding_(NSUTF8StringEncoding).writeToFile_atomically_(filepath, true);
 
