@@ -1,17 +1,28 @@
 # Sketch Browser Preview
 
-## Manual install
+Generates a preview of your current artboard and shows in your web browser.
+
+##How to install it
+
+First of all you need to have [Sketch 3](http://bohemiancoding.com/sketch/) installed.
+
+###Use Sketch Toolbox (recommended)
+Use [Sketch Toolbox](http://sketchtoolbox.com/) to search for `Sketch Browser Preview` and click install.
+
+
+### Manual install
 
 1. [Download the ZIP file with the commands](https://github.com/FreakLab/sketch-browser-preview/zipball/master)
 2. Copy the contents of the ZIP to `~/Library/Application Support/sketch/Plugins` (if you're using the App Store version of Sketch, you need to copy them to `~/Library/Containers/com.bohemiancoding.sketch/Data/Library/Application Support/sketch/Plugins`)
 
-## Sketch toolbox install
-
-Download [Sketch toolbox](http://sketchtoolbox.com/)
 
 ## Keyboard shortcut
 
-SHIFT + CMD + .
+`⌘` + `⇧` + `.`
+
+## Supported Versions
+
+Sketch 3.2.1 or later on OSX Yosemite.
 
 ## More info
 
