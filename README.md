@@ -2,7 +2,7 @@
 
 ## Manual install
 
-1. [Download the ZIP file with the commands](https://github.com/lastroom/sketch-commands/zipball/master)
+1. [Download the ZIP file with the commands](https://github.com/FreakLab/sketch-browser-preview/zipball/master)
 2. Copy the contents of the ZIP to `~/Library/Application Support/sketch/Plugins` (if you're using the App Store version of Sketch, you need to copy them to `~/Library/Containers/com.bohemiancoding.sketch/Data/Library/Application Support/sketch/Plugins`)
 
 ## Sketch toolbox install
