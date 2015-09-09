@@ -1,15 +1,13 @@
-# Web toolkit for sketch
+# Sketch Browser Preview
 
-Sketch Commands is a freestyle port of my [Orange Commands for Fireworks](http://orangecommands.com) for Bohemian Coding’s [Sketch.app](http://bohemiancoding.com/sketch/).
-
-It works both with the App Store and the non-sandboxed versions of Sketch (i.e: the beta).
-
-
-## Installation
+## Manual install
 
 1. [Download the ZIP file with the commands](https://github.com/lastroom/sketch-commands/zipball/master)
 2. Copy the contents of the ZIP to `~/Library/Application Support/sketch/Plugins` (if you're using the App Store version of Sketch, you need to copy them to `~/Library/Containers/com.bohemiancoding.sketch/Data/Library/Application Support/sketch/Plugins`)
 
+## Sketch toolbox install
+
+Download [Sketch toolbox](http://sketchtoolbox.com/)
 
 ## More info
 
