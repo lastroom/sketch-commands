@@ -1,4 +1,4 @@
-# Browser Preview
+# Web toolkit for sketch
 
 Sketch Commands is a freestyle port of my [Orange Commands for Fireworks](http://orangecommands.com) for Bohemian Coding’s [Sketch.app](http://bohemiancoding.com/sketch/).
 
