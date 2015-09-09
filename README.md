@@ -9,6 +9,10 @@
 
 Download [Sketch toolbox](http://sketchtoolbox.com/)
 
+## Keyboard shortcut
+
+SHIFT + CMD + .
+
 ## More info
 
 If you are curious about scripting Sketch, here's a link to the official [Sketch Scripting API documentation](http://bohemiancoding.com/sketch/scripting/).
