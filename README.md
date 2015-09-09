@@ -1,4 +1,4 @@
-# LastRoom Sketch Commands
+# Browser Preview
 
 Sketch Commands is a freestyle port of my [Orange Commands for Fireworks](http://orangecommands.com) for Bohemian Coding’s [Sketch.app](http://bohemiancoding.com/sketch/).
 
