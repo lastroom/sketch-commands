@@ -26,7 +26,7 @@ Sketch 3.2.1 or later on OSX Yosemite.
 
 ## More info
 
-If you are curious about scripting Sketch, here's a link to the official [Sketch Scripting API documentation](http://bohemiancoding.com/sketch/scripting/).
+If you are curious about scripting Sketch, here's a link to the official [Sketch Developer documentation](http://bohemiancoding.com/sketch/support/developer/).
 
 
 ## License
