@@ -1,19 +1,32 @@
-# LastRoom Sketch Commands
+# Sketch Browser Preview
 
-Sketch Commands is a freestyle port of my [Orange Commands for Fireworks](http://orangecommands.com) for Bohemian Coding’s [Sketch.app](http://bohemiancoding.com/sketch/).
+Generates a preview of your current artboard and shows in your web browser.
 
-It works both with the App Store and the non-sandboxed versions of Sketch (i.e: the beta).
+##How to install it
+
+First of all you need to have [Sketch 3](http://bohemiancoding.com/sketch/) installed.
+
+###Use Sketch Toolbox (recommended)
+Use [Sketch Toolbox](http://sketchtoolbox.com/) to search for `Sketch Browser Preview` and click install.
 
 
-## Installation
+### Manual install
 
-1. [Download the ZIP file with the commands](https://github.com/lastroom/sketch-commands/zipball/master)
+1. [Download the ZIP file with the commands](https://github.com/FreakLab/sketch-browser-preview/zipball/master)
 2. Copy the contents of the ZIP to `~/Library/Application Support/sketch/Plugins` (if you're using the App Store version of Sketch, you need to copy them to `~/Library/Containers/com.bohemiancoding.sketch/Data/Library/Application Support/sketch/Plugins`)
 
 
+## Keyboard shortcut
+
+`⌘` + `⇧` + `.`
+
+## Supported Versions
+
+Sketch 3.2.1 or later on OSX Yosemite.
+
 ## More info
 
-If you are curious about scripting Sketch, here's a link to the official [Sketch Scripting API documentation](http://bohemiancoding.com/sketch/scripting/).
+If you are curious about scripting Sketch, here's a link to the official [Sketch Developer documentation](http://bohemiancoding.com/sketch/support/developer/).
 
 
 ## License
