@@ -1,3 +1,9 @@
+#Deprecated repo
+
+Please view new repo: https://github.com/Freakland/sketch-browser-preview
+
+> New repo works in "Sketch 39" :D
+
 # LastRoom Sketch Commands
 
 Sketch Commands is a freestyle port of my [Orange Commands for Fireworks](http://orangecommands.com) for Bohemian Coding’s [Sketch.app](http://bohemiancoding.com/sketch/).
