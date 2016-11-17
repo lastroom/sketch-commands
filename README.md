@@ -4,17 +4,13 @@ Generates a preview of your current artboard and shows in your web browser.
 
 ##How to install it
 
-First of all you need to have [Sketch 3](http://bohemiancoding.com/sketch/) installed.
->Compatible with the current version 3.6 ( 26304 )
-
-###Use Sketch Toolbox (recommended)
-Use [Sketch Toolbox](http://sketchtoolbox.com/) to search for `Sketch Browser Preview` and click install.
-
+First of all you need to have [Sketch 4](http://bohemiancoding.com/sketch/) installed.
+>Compatible with the current version 41 ( 35326 )
 
 ### Manual install
 
 1. [Download the ZIP file with the commands](https://github.com/FreakLab/sketch-browser-preview/zipball/master)
-2. Copy the contents of the ZIP to `~/Library/Application Support/sketch/Plugins` (if you're using the App Store version of Sketch, you need to copy them to `~/Library/Containers/com.bohemiancoding.sketch/Data/Library/Application Support/sketch/Plugins`)
+2. Double click
 
 
 ## Keyboard shortcut

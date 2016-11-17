@@ -8,8 +8,8 @@
     "commands" : [
     {
       "script" : "preview.js",
-      "handler" : "onRun",
-      "shortcut" : "",
+      "handler" : "main",
+      "shortcut" : "cmd shift .",
       "name" : "Browser Preview",
       "identifier" : "browser_preview"
     }

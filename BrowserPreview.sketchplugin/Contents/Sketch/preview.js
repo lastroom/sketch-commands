@@ -39,4 +39,6 @@ var preview = function(doc) {
   }
 }
 
-preview(context.document);
+var main = function(context) {
+  preview(context.document);
+}
