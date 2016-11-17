@@ -1,0 +1,17 @@
+{
+    "name" : "Browser Preview",
+    "identifier" : "com.sketchapp.browserpreview",
+    "version" : "0.0.1",
+    "description" : "Generates a preview of your current artboard and shows in your web browser.",
+    "authorEmail" : "jcebxd@gmail.com",
+    "author" : "Jul Ceballos",
+    "commands" : [
+    {
+      "script" : "preview.js",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Browser Preview",
+      "identifier" : "browser_preview"
+    }
+  ]
+}
