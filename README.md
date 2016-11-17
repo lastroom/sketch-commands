@@ -20,7 +20,7 @@ First of all you need to have [Sketch 4](http://bohemiancoding.com/sketch/) inst
 
 ## Supported Versions
 
-Sketch 3.2.1 or later on OSX Yosemite.
+Sketch 41 or later on El capitan or Sierra.
 
 ## More info
 
