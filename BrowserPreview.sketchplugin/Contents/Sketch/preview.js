@@ -39,6 +39,6 @@ var preview = function(doc) {
   }
 }
 
-var main = function(context) {
+var onRun = function(context) {
   preview(context.document);
 }
