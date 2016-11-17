@@ -10,7 +10,8 @@ First of all you need to have [Sketch 4](http://bohemiancoding.com/sketch/) inst
 ### Manual install
 
 1. [Download the ZIP file with the commands](https://github.com/FreakLab/sketch-browser-preview/zipball/master)
-2. Double click
+2. If you have an old version, remove it.
+3. Double click on sketch browser preview sketchplugin file.
 
 
 ## Keyboard shortcut

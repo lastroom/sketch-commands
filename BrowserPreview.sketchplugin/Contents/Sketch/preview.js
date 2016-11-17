@@ -17,7 +17,7 @@ var get_background = function(artboard) {
 }
 
 var preview = function(doc) {
-  const err_msg = "You must create almost an artboard.";
+  const err_msg = "You should select an artboard.";
 
   var artboard = doc.currentPage().currentArtboard();
 
